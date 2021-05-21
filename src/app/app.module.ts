@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { WithCssComponent } from './with-css/with-css.component';
 import { WithoutCssComponent } from './without-css/without-css.component';
 import { TestChangeComponent } from './test-change/test-change.component';
+import { SearchBoxDirective } from './search-box.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     WithCssComponent,
     WithoutCssComponent,
-    TestChangeComponent
+    TestChangeComponent,
+    SearchBoxDirective
   ],
   imports: [
     BrowserModule,
